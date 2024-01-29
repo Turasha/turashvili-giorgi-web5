@@ -55,7 +55,7 @@ h6{
     line-height: 30px;
     font-weight: 600;
 }
-p{
+.p-main{
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
@@ -101,8 +101,65 @@ span{
 .footer-main{
     width: 1306px;
     height: 223px;
-    background-color: aqua;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
+.footer-block1{
+    width: 318.05px;
+    height: 221px;
+}
+.footer-p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(83, 83, 83, 1);
+    line-height: 16.94px;
+}
+.footer-p-div{
+    width: 306.05px;
+    height: 73px;
+    margin: 32px 0px 28px 12px;
+}
+.footer-icons{
+    display: flex;
+    margin-left: 12px;
+}
+.footer-in{
+    margin: 0px 16px 0px 16px;
+}
+.footer-block2{
+    display: flex;
+    width: 136px;
+    height: 223px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+ .footerh2{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(30, 30, 30, 1);
+ }
+ .footer-block-p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(83, 83, 83, 1);
+ }
+
+ .footer-block4{
+    display: flex;
+    width: 107px;
+    height: 127.45px;
+    justify-content: space-between;
+    flex-direction: column;
+
+ }
+ .language{
+    width: 80px;
+    height: 45px;
+    background-color: rgba(5, 74, 104, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
